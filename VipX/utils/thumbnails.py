@@ -34,7 +34,7 @@ def add_corners(im):
 async def gen_thumb(videoid, chat_id):
     if os.path.isfile(f"cache/{videoid}_{chat_id}.png"):
         return f"cache/{videoid}_{chat_id}.png"
-    url = f"https://www.youtube.com/watch?v={videoid}"
+    url = f"https://www.youtube.com/@warrior_units"
     try:
         results = VideosSearch(url, limit=1)
         for result in (await results.next())["result"]:
@@ -174,7 +174,7 @@ async def gen_thumb(videoid, chat_id):
 async def gen_qthumb(videoid, chat_id):
     if os.path.isfile(f"cache/que{videoid}_{chat_id}.png"):
         return f"cache/que{videoid}_{chat_id}.png"
-    url = f"https://www.youtube.com/watch?v={videoid}"
+    url = f"https://www.youtube.com/@warrior_units"
     try:
         results = VideosSearch(url, limit=1)
         for result in (await results.next())["result"]:
