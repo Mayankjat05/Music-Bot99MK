@@ -44,7 +44,7 @@ class Userbot(Client):
         )
 
     async def start(self):
-        LOGGER(__name__).info(f"😁𝐋𝐨𝐚𝐝𝐢𝐧𝐠 𝐘𝐨𝐮𝐫 𝐀𝐬𝐬𝐢𝐬𝐭𝐚𝐧𝐭...")
+        LOGGER(__name__).info(f"😁𝐋𝐨𝐚𝐝𝐢𝐧𝐠 𝐀𝐬𝐬𝐢𝐬𝐭𝐚𝐧𝐭...")
         if config.STRING1:
             await self.one.start()
             try:
