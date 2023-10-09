@@ -22,7 +22,7 @@ yesnoprompt(){
 }
 
 update() {
-	pprint "\n\n𝐔𝐩𝐝𝐚𝐭𝐢𝐧𝐠 𝐒𝐡𝐢𝐯 𝐌𝐮𝐬𝐢𝐜 𝐏𝐚𝐜𝐤𝐚𝐠𝐞 𝐋𝐢𝐬𝐭😎.. "
+	pprint "\n\n𝐔𝐩𝐝𝐚𝐭𝐢𝐧𝐠 Warrior 𝐌𝐮𝐬𝐢𝐜 𝐏𝐚𝐜𝐤𝐚𝐠𝐞 𝐋𝐢𝐬𝐭😎.. "
 	sudo apt update 2>&1 | grep "can be upgraded" &>/dev/null
 	if [ $? -eq 0 ]; then
 		pprint "𝗨𝗽𝗱𝗮𝘁𝗲 𝗔𝘃𝗮𝗶𝗹𝗮𝗯𝗹𝗲..🖕" "cgreen"
@@ -83,7 +83,7 @@ installation(){
 }
 
 clear
-pprint "🇼𝐄𝐋𝐂𝐎𝐌𝐄 🇹𝐎 🇸𝐇𝐈𝐕 🇲𝐔𝐒𝐈𝐂 🇸𝐄𝐓𝐔𝐏\n\n"
+pprint "🇼𝐄𝐋𝐂𝐎𝐌𝐄 🇹𝐎 Warrior 🇲𝐔𝐒𝐈𝐂 🇸𝐄𝐓𝐔𝐏\n\n"
 sleep 1
 pprint "\n\sᴄʀɪᴘᴛ ɴᴇᴇᴅs sᴜᴅᴏ ᴘʀɪᴠɪʟᴇɢᴇs ɪɴ ᴏʀᴅᴇʀ ᴛᴏ ᴜᴘᴅᴀᴛᴇ & ɪɴsᴛᴀʟʟ ᴘᴀᴄᴋᴀɢᴇs😼.\n"
 sudo test
